@@ -18,3 +18,8 @@
   --select_background: #290e00;
   --select_color: #fff;
 }
+
+.active {
+  color: red;
+  font-weight: bold;
+}

@@ -13,7 +13,7 @@ const MovieList = ({ type, typeImg }) => {
 
   useEffect(() => {
     FetchData();
-  }, []);
+  }, [type]);
 
   useEffect(() => {
     if (Sort.by != "default") {
